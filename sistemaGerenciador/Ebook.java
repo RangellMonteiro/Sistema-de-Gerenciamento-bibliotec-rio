@@ -1,3 +1,5 @@
+package sistemaGerenciador;
+
 public class Ebook extends Material {
 
     public Ebook(String titulo, String autor, int codigo) {

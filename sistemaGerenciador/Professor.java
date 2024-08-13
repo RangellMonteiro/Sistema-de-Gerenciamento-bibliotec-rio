@@ -1,3 +1,5 @@
+package sistemaGerenciador;
+
 public class Professor extends Usuario {
     private static final int LIMITE_EMPRESTIMOS = 5;
 

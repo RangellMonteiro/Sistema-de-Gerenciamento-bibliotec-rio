@@ -1,3 +1,5 @@
+package sistemaGerenciador;
+
 public class Funcionario extends Usuario {
     private static final int LIMITE_EMPRESTIMOS = 4;
 

@@ -1,3 +1,5 @@
+package sistemaGerenciador;
+
 public abstract class Material { // Define a estrutura básica para os tipos de materiais
     protected String titulo;
     protected String autor;
