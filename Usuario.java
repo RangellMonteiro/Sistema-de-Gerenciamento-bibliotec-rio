@@ -3,10 +3,10 @@ import java.util.List;
 
 public abstract class Usuario { // Classe abstrata que define a estrutura básica para os usuários do sistema.
     protected String nome;
-    protected String id;
+    protected int id;
     protected List<Material> materiaisEmprestados;
 
-    public Usuario(String nome, String id) {
+    public Usuario(String nome, int id) {
         this.nome = nome;
         this.id = id;
         this.materiaisEmprestados = new ArrayList<>();
@@ -16,7 +16,7 @@ public abstract class Usuario { // Classe abstrata que define a estrutura básic
         return nome;
     }
 
-    public String getId() {
+    public int getId() {
         return id;
     }
 

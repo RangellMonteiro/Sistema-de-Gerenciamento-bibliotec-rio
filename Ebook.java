@@ -1,6 +1,6 @@
 public class Ebook extends Material {
 
-    public Ebook(String titulo, String autor, String codigo) {
+    public Ebook(String titulo, String autor, int codigo) {
         super(titulo, autor, codigo);
     }
 

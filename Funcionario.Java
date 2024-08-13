@@ -1,7 +1,7 @@
 public class Funcionario extends Usuario {
     private static final int LIMITE_EMPRESTIMOS = 4;
 
-    public Funcionario(String nome, String id) {
+    public Funcionario(String nome, int id) {
         super(nome, id);
     }
 

@@ -1,10 +1,10 @@
 public abstract class Material { // Define a estrutura básica para os tipos de materiais
     protected String titulo;
     protected String autor;
-    protected String codigo;
+    protected int codigo;
     protected int numeroEmprestimos;
 
-    public Material(String titulo, String autor, String codigo) {
+    public Material(String titulo, String autor, int codigo) {
         this.titulo = titulo;
         this.autor = autor;
         this.codigo = codigo;
@@ -19,7 +19,7 @@ public abstract class Material { // Define a estrutura básica para os tipos de 
         return autor;
     }
 
-    public String getCodigo() {
+    public int getCodigo() {
         return codigo;
     }
 

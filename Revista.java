@@ -1,6 +1,6 @@
 public class Revista extends Material {
 
-    public Revista(String titulo, String autor, String codigo) {
+    public Revista(String titulo, String autor, int codigo) {
         super(titulo, autor, codigo);
     }
 

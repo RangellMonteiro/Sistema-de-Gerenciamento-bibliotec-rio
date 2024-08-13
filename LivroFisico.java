@@ -1,8 +1,8 @@
 public class LivroFisico extends Material {
 
-    public LivroFisico(String titulo, String autor, String codigo) {
+    public LivroFisico(String titulo, String autor, int codigo) {
         super(titulo, autor, codigo);
-    } // Método contrutor
+    } // Método construtor
 
     @Override
     public int calcularPrazoDevolucao() {

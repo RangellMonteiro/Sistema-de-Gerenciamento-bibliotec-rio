@@ -1,7 +1,7 @@
 public class Professor extends Usuario {
     private static final int LIMITE_EMPRESTIMOS = 5;
 
-    public Professor(String nome, String id) {
+    public Professor(String nome, int id) {
         super(nome, id);
     }
 
